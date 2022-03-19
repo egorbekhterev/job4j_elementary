@@ -49,7 +49,7 @@ public class Converter {
         expected = 17.49F;
         out = Converter.euroToDollar(in);
         passed = expected == out;
-        System.out.println("15 euros are 17.49 euros. Test result : " + passed);
+        System.out.println("15 euros are 17.49 dollars. Test result : " + passed);
     }
 }
 
