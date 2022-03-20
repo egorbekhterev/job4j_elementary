@@ -12,3 +12,4 @@ public class Max {
         System.out.println(msg);
     }
 }
+
