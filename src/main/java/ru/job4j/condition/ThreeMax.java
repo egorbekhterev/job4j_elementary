@@ -15,12 +15,12 @@ public class ThreeMax {
             result = first;
         }
 
-        if (first == third) {
-            result = first;
-        }
-
         if (second == third) {
             result = second;
+        }
+
+        if (first == third) {
+            result = first;
         }
 
         return result;
