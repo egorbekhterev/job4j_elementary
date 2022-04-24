@@ -9,6 +9,7 @@ public class ArrayChar {
                 result = true;
             } else {
                 result = false;
+                break;
             }
         }
         return result;
