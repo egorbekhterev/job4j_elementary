@@ -68,6 +68,30 @@ public class MatrixCheckTest {
     }
 
     @Test
+    public void whenDiagonalFullX() {
+        char[][] input = {
+                {'X', ' ', ' '},
+                {' ', 'X', ' '},
+                {' ', ' ', 'X'},
+        };
+        char[] result = MatrixCheck.extractDiagonal(input);
+        char[] expected = {'X', 'X', 'X'};
+        Assert.assertArrayEquals(expected, result);
+    }
+
+    @Test
+    public void whenDiagonalFullOne() {
+        char[][] input = {
+                {'1', ' ', ' '},
+                {' ', '1', ' '},
+                {' ', ' ', '1'},
+        };
+        char[] result = MatrixCheck.extractDiagonal(input);
+        char[] expected = {'1', '1', '1'};
+        Assert.assertArrayEquals(expected, result);
+    }
+
+    @Test
     public void whenDataMonoByTrueThenTrue() {
         char[][] input = {
                 {' ', ' ', 'X', ' ', ' '},
