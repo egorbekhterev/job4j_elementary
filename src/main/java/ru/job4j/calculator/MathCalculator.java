@@ -19,6 +19,5 @@ public class MathCalculator {
         System.out.println("Результат расчёта равен: " + sumAndMultiply(10, 20));
         System.out.println("Результат расчёта равен: " + deductAndDiv(20, 10));
         System.out.println("Результат расчёта равен: " + sumOfFourOperations(20, 10));
-
     }
 }
